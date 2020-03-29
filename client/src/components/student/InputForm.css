@@ -1,0 +1,51 @@
+.if-container {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 960px;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 300px;
+}
+
+.if-grid {
+    color: #000;
+    display: grid;
+    padding-top: .5rem;
+    margin-top: 10px;
+    border-top: 1px solid rgb(55, 55, 55);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    margin-bottom: 10px;
+}
+.if-l input {
+    float: right;
+    width: 80%;
+    padding: 3px;
+    border-radius: 2px;
+
+}
+.if-l label {
+    margin-left: 10px;
+}
+
+.if-r p{
+    text-align: center;
+    font-size: 30px;
+}
+.if-r {
+    text-align: center;
+}
+
+.if-r img {
+    display: block;
+    margin: auto auto;
+    width: 200px;
+    height: 200px;
+
+}
+
+.btn {
+    margin-left:50%;
+    font-size: 15px;
+    padding: 5px;
+}
